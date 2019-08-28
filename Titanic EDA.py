@@ -1,7 +1,7 @@
 
-import numpy as np # linear algebra
-import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
-import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+#import matplotlib.pyplot as plt
 
 # Import data : training and test set
 
