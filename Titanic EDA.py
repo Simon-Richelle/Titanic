@@ -2,22 +2,6 @@
 import numpy as np # linear algebra
 import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
 import matplotlib.pyplot as plt
-import seaborn as sns
-import xgboost as xgb
-import re
-from sklearn.pipeline import Pipeline
-from sklearn.linear_model import LogisticRegression
-from sklearn.ensemble import RandomForestClassifier
-
-from keras.models import Sequential
-from keras.layers import Dense
-from keras.utils import to_categorical
-
-from sklearn.preprocessing import StandardScaler
-from sklearn.model_selection import GridSearchCV
-from sklearn.model_selection import RandomizedSearchCV
-from sklearn.model_selection import cross_val_score
-
 
 # Import data : training and test set
 
