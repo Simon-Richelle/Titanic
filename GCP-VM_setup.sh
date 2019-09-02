@@ -16,8 +16,9 @@ git clone <XXXXX> #cloning github repository
 # getting necessary python packages
 
 #!/bin/bash
-sudo apt-get update
-sudo apt-get -y -qq --fix-missing install python3-mpltoolkits.basemap python3-numpy python3-matplotlib python3-requests python3-pandas
+sudo apt-get install python
+#sudo apt-get update
+#sudo apt-get -y -qq --fix-missing install python3-mpltoolkits.basemap python3-numpy python3-matplotlib python3-requests python3-pandas
 
 ### HOW TO :
 # bash <XXX>.sh #run a bash file called <XXX>
