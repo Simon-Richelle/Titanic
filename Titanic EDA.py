@@ -34,8 +34,8 @@ print('=========================================================================
 print('\n')
 
 # identifying important features in variables (missing values, number of unique values
-df_missing = pd.DataFrame({'column': df.columns, 'Data type': df.dtypes ,'Missing': df.isnull().sum(), 'unique_val': df.nunique()})
-print(df_missing)
+#df_missing = pd.DataFrame({'column': df.columns, 'Data type': df.dtypes ,'Missing': df.isnull().sum(), 'unique_val': df.nunique()})
+#print(df_missing)
 
 ## Data vizualization
 fig, ax = plt.subplots(4, 3, figsize=(30, 30))
