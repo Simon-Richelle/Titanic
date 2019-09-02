@@ -14,6 +14,7 @@ git --version #checking git version
 git clone <XXXXX> #cloning github repository
 
 # getting necessary python packages
+# https://stackoverflow.com/questions/38572287/importerror-no-module-named-numpy-google-cloud-dataproc-when-using-jupyter-no
 
 #!/bin/bash
 sudo apt-get install python
